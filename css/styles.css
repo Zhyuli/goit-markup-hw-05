@@ -897,6 +897,9 @@ button {
     border-color: var(--iris);
 }
 
+.modal-form-comment:focus {
+    border-color: var(--iris);
+}
 
 
 .modal-form-comment {
@@ -931,7 +934,10 @@ button {
     color: var(--light-slate);
 }
 
-.checkbox {}
+.checkbox {
+
+    border: 1px solid rgba(46, 47, 66, 0.4);
+}
 
 .modal-checkbox-span {
     width: 16px;
@@ -965,7 +971,7 @@ button {
 .modal-form-checkbox-icon {}
 
 
-.checkbox:checked+.modal-form-agr>.modal-form-descr {
+.checkbox:checked+.modal-form-agr>.modal-checkbox-span {
     background-color: var(--ocean);
     border: none;
     fill: var(--cloud);
