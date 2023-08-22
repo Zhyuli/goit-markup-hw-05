@@ -177,7 +177,6 @@ button {
 
 .footer-logo {
     margin-bottom: 16px;
-    /* display: inline-block; */
     color: var(--iris);
     font-weight: 800;
     line-height: 1.17;
@@ -186,7 +185,7 @@ button {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     display: flex;
-    margin-right: 76px;
+
     align-items: center;
 }
 
@@ -1014,9 +1013,7 @@ button {
 }
 
 
-.subscribe-block {
-    margin-left: auto;
-}
+.subscribe-block {}
 
 .subscribe-text {
     color: var(--white);
@@ -1037,7 +1034,6 @@ button {
     justify-content: center;
     align-items: center;
     gap: 16px;
-    /* margin-left: 16px; */
     border-radius: 4px;
     background: var(--iris, #4D5AE5);
     color: var(--white);
@@ -1048,9 +1044,14 @@ button {
 
 }
 
+.subscribe-button:hover,
+.subscribe-button:focus {
+    background: var(--ocean);
+}
+
 .subscribe-icon {
     fill: var(--white);
     width: 24px;
     height: 24px;
-    margin-left: 16px;
+
 }
