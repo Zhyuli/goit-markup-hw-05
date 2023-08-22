@@ -1033,7 +1033,7 @@ button {
     padding: 8px 24px;
     justify-content: center;
     align-items: center;
-    gap: 16px;
+    /* gap: 16px; */
     border-radius: 4px;
     background: var(--iris, #4D5AE5);
     color: var(--white);
@@ -1053,5 +1053,6 @@ button {
     fill: var(--white);
     width: 24px;
     height: 24px;
+    margin-left: 16px;
 
 }
