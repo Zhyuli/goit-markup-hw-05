@@ -1022,8 +1022,7 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin: 0 0 16px;
-    width: 75px;
-    height: 24px;
+
 }
 
 
@@ -1033,7 +1032,6 @@ button {
     padding: 8px 24px;
     justify-content: center;
     align-items: center;
-    /* gap: 16px; */
     border-radius: 4px;
     background: var(--iris, #4D5AE5);
     color: var(--white);
